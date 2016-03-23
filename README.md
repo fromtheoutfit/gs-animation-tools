@@ -29,7 +29,7 @@ You can see this order in use in [the demo's index.html file](https://github.com
 
 ## Keyboard Shortcuts
 
-* _Spacebar_ will toggle between play and pause
-* _Left arrow_ will seek back by the value you've defined above, or by `0.1` seconds if left undefined
-* _Right arrow_ will seek forward by the value you've defined above, or by `0.1` seconds if left undefined
-* _Escape_ will restart the animation from it's beginning
+* <kbd>Spacebar</kbd> will toggle between play and pause
+* <kbd>&larr;</kbd> will seek back by the value you've defined above, or by `0.1` seconds if left undefined
+* <kbd>&rarr;</kbd> will seek forward by the value you've defined above, or by `0.1` seconds if left undefined
+* <kbd>esc</kbd> will restart the animation from it's beginning
