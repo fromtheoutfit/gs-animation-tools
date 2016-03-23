@@ -1,0 +1,8 @@
+.demo-object {
+  background-color: red;
+  border-radius: 25%;
+  height: 50px;
+  margin: 0 auto;
+  border: 5px solid rgba(0,0,255,.5);
+  width: 50px;
+}
