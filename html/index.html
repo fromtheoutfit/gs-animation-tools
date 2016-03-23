@@ -3,36 +3,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Demo of GS Animation Tools</title>
   <link rel="stylesheet" href="all.css" />
-  <!-- One of GreenSock's files is necessary. Learn more here: http://greensock.com/get-started-js#loading  -->
+  <!--
+  1. GreenSock's platform file(s) are necessary; learn more here: http://greensock.com/get-started-js#loading
+  -->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 </head>
 <body>
 
   <div class="demo-object" id="js-demo-object"></div>
 
-  <!-- 1. Load your own GSAP animation code first. -->
+  <!--
+  2. Load your own GSAP animation code first.
+  -->
   <script src="animations.js"></script>
 
-  <!-- 2. Load the animation tools. -->
+  <!--
+  3. Load the animation tools.
+  -->
   <script src="gs-animation-tools.js"></script>
 
-  <!-- 3. Call the animation tools. -->
+  <!--
+  4. Call the animation tools.
+  -->
   <script>
-      // ======================================================================
-      // Parameters.
-      //
-      // Example: _gsAnimationTools(SuperTimeline, 0.5, 0.5);
-      //
-      // 1. The name of your primary timeline.
-      //    Default = tl
-      //
-      // 2. When seeking backward, how many seconds should each jump back go?
-      //    Default = 0.1
-      //
-      // 3. When seeking forward, how many seconds should each jump forward go?
-      //    Default = 0.1
-      // ======================================================================
-      _gsAnimationTools(tlMaster, 0.15, 0.15);
-    </script>
+    // ======================================================================
+    // Parameters.
+    //
+    // Example: _gsAnimationTools(SuperTimeline, 0.5, 0.5);
+    //
+    // 1. The name of your primary timeline.
+    //    Default = tl
+    //
+    // 2. When seeking backward, how many seconds should each jump back go?
+    //    Default = 0.1
+    //
+    // 3. When seeking forward, how many seconds should each jump forward go?
+    //    Default = 0.1
+    // ======================================================================
+    _gsAnimationTools(tlMaster, 0.15, 0.15);
+  </script>
+
 </body>
 </html>
