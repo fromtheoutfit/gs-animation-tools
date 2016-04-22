@@ -59,7 +59,7 @@ function _gsAnimationTools(timelineName, seekBackwardDuration, seekForwardDurati
 
   animationTools.appendCode(document.body,
     '<style>' +
-      '._animation-tools {bottom:5px;font-family:sans-serif;position:absolute;text-align:center;width:100%;z-index:99999}' +
+      '._animation-tools {bottom:5px;font-family:sans-serif;position:fixed;text-align:center;width:100%;z-index:99999}' +
       '._animation-tools-info {background-color:rgba(255,255,255,.5);border-radius:0.25em;display:inline-block;padding:0 0.5em;}' +
       '._animation-tools-playback-controls {opacity:0.5;}' +
       '._animation-tools-playback-controls:hover {opacity:1;}' +
